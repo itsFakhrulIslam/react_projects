@@ -1,9 +1,10 @@
 import { Outlet } from "react-router";
+import Navbar from "../components/navigation/Navbar";
 
 const RootLayouts = () => {
   return (
-    <div>
-      <h1>root layouts up here</h1>
+    <div className="max-w-7xl mx-auto space-y-5">
+      <Navbar />
 
       <Outlet />
 
