@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const Navbar = () => {
   return (
     <>
-      <nav className="shadow-2xl flex justify-between items-center px-5">
+      <nav className="shadow-2xl flex justify-between items-center px-5 py-3 sticky top-0 z-50 bg-white">
         <div className="">
           <Link to="/">
             <img className="w-50" src="logo.svg" alt="" />
@@ -12,10 +12,10 @@ const Navbar = () => {
 
         <div className="">
           <ul className="flex gap-4 capitalize font-semibold text-md">
-            <Link to="/">home</Link>
-            <Link to="/about">about</Link>
-            <Link to="/services">services</Link>
-            <Link to="/contact">contact</Link>
+            <a to="/">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#contact">contact</a>
           </ul>
         </div>
       </nav>
@@ -29,7 +29,7 @@ export default Navbar;
  * 
  * 
  * The odd jobs you keep
-meaning to sort
+meaning href sort
 
  <div className="navbar bg-base-100 shadow-sm flex justify-between px-5">
         <div className="">

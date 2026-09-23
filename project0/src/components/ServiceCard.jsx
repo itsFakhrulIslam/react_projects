@@ -1,6 +1,13 @@
 const ServiceCard = () => {
+  const handleCard = (param) => {
+    alert("hello card", param);
+  };
+
   return (
-    <div className="border-2 rounded-2xl overflow-hidden space-y-5">
+    <div
+      onClick={() => handleCard()}
+      className="border-2 rounded-2xl overflow-hidden space-y-5 pb-5 hover:scale-105 transition duration-300 cursor-pointer"
+    >
       <img src="about.jpg" className="w-full" alt="" />
 
       <div className="px-5 space-y-2">

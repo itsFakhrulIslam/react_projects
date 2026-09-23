@@ -1,14 +1,15 @@
-import { Outlet } from "react-router";
+// import { Outlet } from "react-router";
 import Navbar from "../components/navigation/Navbar";
+import Home from "../components/Home";
 
 const RootLayouts = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-5">
+    <div className="max-w-7xl mx-auto">
       <Navbar />
 
-      <Outlet />
+      {/* <Outlet /> */}
 
-      <h1>root layouts down here</h1>
+      <Home />
     </div>
   );
 };

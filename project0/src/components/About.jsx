@@ -2,8 +2,8 @@ import { Link } from "react-router";
 
 const About = () => {
   return (
-    <div className="border-2 min-h-screen flex justify-between items-center gap-4 px-5">
-      <div className="border-2">
+    <div id="about" className="min-h-screen grid items-center justify-center grid-cols-1 gap-4 sm:grid-cols-2 px-5">
+      <div className="">
         <img
           src="about2.png"
           className=""
@@ -11,7 +11,7 @@ const About = () => {
         />
       </div>
 
-      <div className="border-2 space-y-5 ">
+      <div className="space-y-5 ">
         <h2 className="text-4xl font-semibold tracking-tighter">
           I'm Lorem, ipsum dolor.
         </h2>

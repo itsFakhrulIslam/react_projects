@@ -1,8 +1,8 @@
-import ServiceCard from "../components/ServiceCard";
+import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="space-y-5">
+    <div id="services" className="space-y-5">
       <div className="text-center">
         <h1 className="text-4xl capitalize font-semibold tracking-tight">Jobs from the last month</h1>
         <p className="text-amber-800/95 tracking-wider">
@@ -11,7 +11,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 px-5">
         <ServiceCard />
         <ServiceCard />
         <ServiceCard />
