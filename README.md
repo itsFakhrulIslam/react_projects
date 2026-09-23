@@ -9,4 +9,4 @@ const router = createBrowserRouter([
     path: "/",
     element: <div>Hello World</div>,
   },
-]); | , |<RouterProvider router={router} />|
+]); | , |<RouterProvider router={router} /> RouterProvider add here|
