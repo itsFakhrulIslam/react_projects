@@ -138,41 +138,135 @@ const Services = () => {
       </div>
 
       {/* checkup section  */}
-      <h1 className="font-bold text-shadow-amber-500 text-center text-3xl mb-10">Doctors Checkup</h1>
-      <div className="grid items-center">
-
-        <div className="order-2">
-          <div className="">
-            <h4>রোগীর সময় ও সুরক্ষা আমাদের অগ্রাধিকার</h4>
-            <p>
-              আমরা প্রতিটি রোগীর মূল্যবান সময়ের সম্মান করি এবং নিরাপদ সেবা
-              নিশ্চিত করি।
-            </p>
+      <div className="">
+        <h1 className="font-bold text-shadow-amber-500 text-center text-3xl mb-10">
+          Doctors Checkup
+        </h1>
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-5 px-5 py-10">
+          <div className="order-2 space-y-5">
+            <div className="">
+              <h4 className="text-lg font-bold tracking-tighter">
+                রোগীর সময় ও সুরক্ষা আমাদের অগ্রাধিকার
+              </h4>
+              <p className="text-sm text-zinc-700 text-center sm:text-left">
+                আমরা প্রতিটি রোগীর মূল্যবান সময়ের সম্মান করি এবং নিরাপদ সেবা
+                নিশ্চিত করি।
+              </p>
+            </div>
+            <div className="">
+              <h4 className="text-lg font-bold tracking-tighter">
+                পরিচ্ছন্ন ও বাড়ির মতো পরিবেশে যত্নের প্রতিশ্রুতি
+              </h4>
+              <p className="text-sm text-zinc-700 text-center sm:text-left">
+                রোগীরা যেন স্বস্তি ও আস্থার পরিবেশে চিকিৎসা নিতে পারেন, সেটাই
+                আমাদের লক্ষ্য।
+              </p>
+            </div>
+            <div className="">
+              <h4 className="text-lg font-bold tracking-tighter">
+                বিশ্বমানের টেকনোলজি, বিশ্বস্ত সেবা
+              </h4>
+              <p className="text-sm text-zinc-700 text-center sm:text-left">
+                সর্বাধুনিক প্রযুক্তি ব্যবহার করে আমরা দিই নির্ভরযোগ্য ও দ্রুত
+                চিকিৎসাসেবা।
+              </p>
+            </div>
+            <button
+              className="transition duration-300  bg-amber-500/65 py-2 px-5 rounded-full font-bold hover:bg-amber-500"
+              type="button"
+            >
+              সাবস্ক্রিপশন কিনুন <span>➡️</span>
+            </button>
           </div>
-          <div className="">
-            <h4>পরিচ্ছন্ন ও বাড়ির মতো পরিবেশে যত্নের প্রতিশ্রুতি</h4>
-            <p>
+
+          <div className="order-1 sm:order-2">
+            <img src="doctor_checkup.webp" alt="" />
+          </div>
+        </div>
+      </div>
+
+      {/* report section */}
+      <div className="">
+        <h1 className="font-bold text-shadow-amber-500 text-center text-2xl mt-10 tracking-tighter">
+          ডাক্তার অনলাইনে রিপোর্ট দেখে প্রেসক্রিপশন দিতে পারবেন
+        </h1>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="shadow-2xl shadow-amber-400 px-2 py-4 hover:scale-101 transition duration-300">
+            <div className="w-10 h-10 bg-amber-600/65 rounded-lg mb-5"></div>
+            <h3 className="font-bold tracking-tighter">
+              রিয়েল-টাইম সিরিয়াল আপডেট
+            </h3>
+            <p className="text-sm text-zinc-700 text-center sm:text-left">
               রোগীরা যেন স্বস্তি ও আস্থার পরিবেশে চিকিৎসা নিতে পারেন, সেটাই
               আমাদের লক্ষ্য।
             </p>
           </div>
-          <div className="">
-            <h4>বিশ্বমানের টেকনোলজি, বিশ্বস্ত সেবা</h4>
-            <p>
-              সর্বাধুনিক প্রযুক্তি ব্যবহার করে আমরা দিই নির্ভরযোগ্য ও দ্রুত
-              চিকিৎসাসেবা।
+          <div className="shadow-2xl shadow-amber-400 px-2 py-4 hover:scale-101 transition duration-300">
+            <div className="w-10 h-10 bg-amber-600/65 rounded-lg mb-5"></div>
+            <h3 className="font-bold tracking-tighter">
+              রিয়েল-টাইম সিরিয়াল আপডেট
+            </h3>
+            <p className="text-sm text-zinc-700 text-center sm:text-left">
+              রোগীরা যেন স্বস্তি ও আস্থার পরিবেশে চিকিৎসা নিতে পারেন, সেটাই
+              আমাদের লক্ষ্য।
             </p>
           </div>
-          <button
-            className="transition duration-300  bg-amber-500/65 py-2 px-5 rounded-full font-bold hover:bg-amber-500"
-            type="button"
-          >
-            সাবস্ক্রিপশন কিনুন <span>➡️</span>
-          </button>
+          <div className="shadow-2xl shadow-amber-400 px-2 py-4 hover:scale-101 transition duration-300">
+            <div className="w-10 h-10 bg-amber-600/65 rounded-lg mb-5"></div>
+            <h3 className="font-bold tracking-tighter">
+              রিয়েল-টাইম সিরিয়াল আপডেট
+            </h3>
+            <p className="text-sm text-zinc-700 text-center sm:text-left">
+              রোগীরা যেন স্বস্তি ও আস্থার পরিবেশে চিকিৎসা নিতে পারেন, সেটাই
+              আমাদের লক্ষ্য।
+            </p>
+          </div>
         </div>
+      </div>
 
-        <div className="order-1 sm:order-2">
-          <img src="doctor_checkup.webp" alt="" />
+      {/* checkup section  */}
+      <div className="mt-10">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-5 px-5 py-10">
+          <div className="order-1 sm:order-2">
+            <img src="doctor_checkup.webp" alt="" />
+          </div>
+
+          <div className="order-2 space-y-5">
+            <div className="">
+              <h4 className="text-lg font-bold tracking-tighter">
+                রোগীর সময় ও সুরক্ষা আমাদের অগ্রাধিকার
+              </h4>
+              <p className="text-sm text-zinc-700 text-center sm:text-left">
+                আমরা প্রতিটি রোগীর মূল্যবান সময়ের সম্মান করি এবং নিরাপদ সেবা
+                নিশ্চিত করি।
+              </p>
+            </div>
+            <div className="">
+              <h4 className="text-lg font-bold tracking-tighter">
+                পরিচ্ছন্ন ও বাড়ির মতো পরিবেশে যত্নের প্রতিশ্রুতি
+              </h4>
+              <p className="text-sm text-zinc-700 text-center sm:text-left">
+                রোগীরা যেন স্বস্তি ও আস্থার পরিবেশে চিকিৎসা নিতে পারেন, সেটাই
+                আমাদের লক্ষ্য।
+              </p>
+            </div>
+            <div className="">
+              <h4 className="text-lg font-bold tracking-tighter">
+                বিশ্বমানের টেকনোলজি, বিশ্বস্ত সেবা
+              </h4>
+              <p className="text-sm text-zinc-700 text-center sm:text-left">
+                সর্বাধুনিক প্রযুক্তি ব্যবহার করে আমরা দিই নির্ভরযোগ্য ও দ্রুত
+                চিকিৎসাসেবা।
+              </p>
+            </div>
+            <button
+              className="transition duration-300  bg-amber-500/65 py-2 px-5 rounded-full font-bold hover:bg-amber-500"
+              type="button"
+            >
+              সাবস্ক্রিপশন কিনুন <span>➡️</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -180,10 +274,3 @@ const Services = () => {
 };
 
 export default Services;
-
-/**
- * <marquee behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
-  
-</marquee>
-
- */
