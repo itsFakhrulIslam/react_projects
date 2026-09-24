@@ -16,13 +16,13 @@ const MainLayouts = () => {
 
       <Footer />
 
-       <a?
+       <a
         href="#navigate"
         className="transition duration-300 shadow-md py-2 px-5 rounded-full font-bold  bg-amber-500 z-40 sticky bottom-0"
         type="button"
       >
         ⬆
-      </a?
+      </a>
     </div>
   );
 };
