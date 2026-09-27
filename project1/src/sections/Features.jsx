@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <div>
+    <div id="features" className="px-5">
       <h1 className="text-shadow-amber-500 text-center text-2xl mb-2 tracking-tighter">
         আপনি নিজে কোনো আপনার প্রতিষ্ঠানে ডাক্তার দেখাবেন বা টেস্ট করাবেন, একবার
         চিন্তা করুন?{" "}
