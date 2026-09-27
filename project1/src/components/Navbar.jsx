@@ -19,7 +19,7 @@ const Navbar = () => {
             <a href="#features">ফিচার সমূহ</a>
           </li>
           <li className="hover:text-amber-500 transition duration-300">
-            <a href="#packages">প্যাকেজ সমূহ</a>
+            <a href="/packages">প্যাকেজ সমূহ</a>
           </li>
         </ul>
       </div>
