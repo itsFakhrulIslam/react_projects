@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center py-4 shadow px-5">
@@ -18,9 +20,12 @@ const Navbar = () => {
           <li className="hover:text-amber-500 transition duration-300">
             <a href="#features">ফিচার সমূহ</a>
           </li>
-          <li className="hover:text-amber-500 transition duration-300">
-            <a href="/packages">প্যাকেজ সমূহ</a>
-          </li>
+          <Link
+            to="/packages"
+            className="hover:text-amber-500 transition duration-300"
+          >
+            <a href="">প্যাকেজ সমূহ</a>
+          </Link>
         </ul>
       </div>
     </nav>

@@ -109,7 +109,10 @@ const Services = () => {
         </h1>
 
         <marquee width="100%" direction="left" height="100px" scrollamount="20">
-          <img src="nurse_1.webp" alt="" />
+          <div className="">
+            <img src="nurse_1.webp" alt="" />
+            <img src="nurse_1.webp" alt="" />
+          </div>
         </marquee>
 
         <marquee

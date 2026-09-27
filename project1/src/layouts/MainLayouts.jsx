@@ -1,20 +1,13 @@
+import { Outlet } from "react-router";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Banner from "../sections/Banner";
-import Counter from "../sections/Counter";
-import Features from "../sections/Features";
-import Services from "../sections/Services";
 
 const MainLayouts = () => {
   return (
     <div className="max-w-7xl mx-auto space-y-5">
       <Navbar />
-
-      {/* all sections mounts here */}
-      <Banner />
-      <Counter />
-      <Services />
-      <Features />
+      
+      <Outlet />
 
       <Footer />
 
