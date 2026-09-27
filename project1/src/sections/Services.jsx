@@ -104,6 +104,10 @@ const Services = () => {
 
       {/* marquee section */}
       <div className="py-10 space-y-5">
+        <h1 className="font-bold text-shadow-amber-500 text-center text-3xl mb-10">
+          আমরা যেসব হাসপাতালের সঙ্গে যুক্ত আছি
+        </h1>
+
         <marquee width="100%" direction="left" height="100px" scrollamount="20">
           <img src="nurse_1.webp" alt="" />
         </marquee>
